@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-04-11 23:02+0200\n"
-"Last-Translator: Roxfr <roxfr@outlook.fr>\n"
+"PO-Revision-Date: 2026-01-01 22:39+0100\n"
+"Last-Translator: jujududu <jujududu1208@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
 msgid "[!] A log file has been created here: {} {}"
 msgstr "[!] Un fichier journal a été créé ici : {} {}"
@@ -950,10 +950,10 @@ msgid "Encryption type"
 msgstr "Type de chiffrement"
 
 msgid "Iteration time"
-msgstr ""
+msgstr "Temps d’itération"
 
 msgid "Enter iteration time for LUKS encryption (in milliseconds)"
-msgstr ""
+msgstr "Entrez le temps de calcul cible pour le chiffrement LUKS (en millisecondes)"
 
 msgid "Higher values increase security but slow down boot time"
 msgstr "Des valeurs plus grandes peuvent agrandir la sécurité, mais peuvent ralentir le temps de démarrage"
@@ -1747,11 +1747,10 @@ msgid "Would you like to configure Bluetooth?"
 msgstr "Voulez-vous configurer le Bluetooth ?"
 
 msgid "Print service"
-msgstr ""
+msgstr "Service d'impression"
 
-#, fuzzy
 msgid "Would you like to configure the print service?"
-msgstr "Voulez-vous configurer le Bluetooth ?"
+msgstr "Voulez-vous configurer une imprimante?"
 
 #, fuzzy
 msgid "Power management"
@@ -1808,100 +1807,95 @@ msgid "You may need to enter the PIN and then touch your U2F device to register 
 msgstr "Vous devez peut-être entrer le code PIN, puis toucher votre périphérique U2F pour l'enregistrer"
 
 msgid "Starting device modifications in "
-msgstr ""
+msgstr "Démarrage des modifications de l'appareil dans "
 
 #, fuzzy
 msgid "No network connection found"
 msgstr "Aucune configuration réseau"
 
-#, fuzzy
 msgid "Would you like to connect to a Wifi?"
-msgstr "Voulez-vous continuer ?"
+msgstr "Souhaitez-vous vous connecter à un réseau Wi-Fi ?"
 
-#, fuzzy
 msgid "No wifi interface found"
-msgstr "Configurer les interfaces"
+msgstr "pas d'interface trouvé"
 
 #, fuzzy
 msgid "Select wifi network to connect to"
-msgstr "Sélectionner une interface réseau à configurer"
+msgstr "Sélectionner un réseau ou se connecter"
 
 msgid "Scanning wifi networks..."
-msgstr ""
+msgstr "recherche de réseaux wifi..."
 
-#, fuzzy
 msgid "No wifi networks found"
-msgstr "Aucune configuration réseau"
+msgstr "Aucune réseau trouvé"
 
 msgid "Failed setting up wifi"
-msgstr ""
+msgstr "échec de la configuration du wifi"
 
 #, fuzzy
 msgid "Enter wifi password"
 msgstr "Entrer un mot de passe : "
 
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 msgid "Removable"
-msgstr ""
+msgstr "amovible"
 
 msgid "Install to removable location"
-msgstr ""
+msgstr "installation sur un lecteur amovible"
 
 msgid "Will install to /EFI/BOOT/ (removable location)"
-msgstr ""
+msgstr "Sera installé dans /EFI/BOOT/ (emplacement amovible)"
 
 msgid "Will install to standard location with NVRAM entry"
-msgstr ""
+msgstr "L'installation se fera à l'emplacement standard avec l'entrée NVRAM."
 
 msgid "Would you like to install the bootloader to the default removable media search location?"
-msgstr ""
+msgstr "Souhaitez-vous installer le bootloader à l'emplacement de recherche par défaut des supports amovibles ?"
 
 msgid "This installs the bootloader to /EFI/BOOT/BOOTX64.EFI (or similar) which is useful for:"
-msgstr ""
+msgstr "Cela installe le bootloader dans /EFI/BOOT/BOOTX64.EFI (ou un emplacement similaire), ce qui est utile pour :"
 
 msgid "USB drives or other portable external media."
-msgstr ""
+msgstr "Clés USB ou autres supports de stockage externes portables."
 
 msgid "Systems where you want the disk to be bootable on any computer."
-msgstr ""
+msgstr "Systèmes pour lesquels vous souhaitez que le disque puisse démarrer sur n'importe quel ordinateur."
 
 msgid "Firmware that does not properly support NVRAM boot entries."
-msgstr ""
+msgstr "Firmware ne prenant pas correctement en charge les entrées de démarrage NVRAM."
 
 msgid "Will install to /EFI/BOOT/ (removable location, safe default)"
-msgstr ""
+msgstr "L'installation se fera dans /EFI/BOOT/ (emplacement amovible, emplacement par défaut sûr)."
 
 msgid "Will install to custom location with NVRAM entry"
-msgstr ""
+msgstr "Installation à un emplacement personnalisé avec entrée NVRAM"
 
 msgid "Firmware that does not properly support NVRAM boot entries like most MSI motherboards,"
-msgstr ""
+msgstr "Le firmware ne prend pas correctement en charge les entrées de démarrage NVRAM comme la plupart des cartes mères MSI,"
 
 msgid "most Apple Macs, many laptops..."
-msgstr ""
+msgstr "La plupart des ordinateurs Apple Mac, de nombreux ordinateurs portables..."
 
 #, fuzzy
 msgid "Language"
 msgstr "Langue locale"
 
 msgid "Compression algorithm"
-msgstr ""
+msgstr "Algorithme de compression"
 
-#, fuzzy
 msgid "Only packages such as base, sudo, linux, linux-firmware, efibootmgr and optional profile packages are installed."
-msgstr "Seuls les paquets tels que base, base-devel, linux, linux-firmware, efibootmgr et les paquets de profil optionnels sont installés."
+msgstr "Seuls les paquets tels que base, sudo, linux, linux-firmware, efibootmgr et les paquets de profil optionnels sont installés."
 
-#, fuzzy
 msgid "Select zram compression algorithm:"
-msgstr "Sélectionner un point de montage :"
+msgstr "Sélectionnez l’algorithme de compression zram : "
 
 msgid "Use Network Manager (default backend)"
-msgstr ""
+msgstr "Utiliser le manager de réseau (default backend)"
 
 msgid "Use Network Manager (iwd backend)"
-msgstr ""
+msgstr "Utiliser le manager de réseau (iwd backend)"
 
 #, python-brace-format
 #~ msgid "Edit {origkey} :"
